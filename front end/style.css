@@ -75,6 +75,28 @@
     border-radius: 25px;
     text-align: center;
 }
+.card img{
+    border-radius: 25px 25px 0px 0px;
+
+}
+.card h3{
+    margin-top: 15px;
+    font-family: var(--cor2);
+    font-size: 1.3em;
+
+}
+.card p{
+    text-align: left;
+    padding: 10px 30px 30px 30px;
+    font-family: var(--texto);
+    font-size: 1.2em;
+
+}
+.card a{
+    padding: 10px 100px;
+    font-family: var(--texto);
+    border: 0;
+}
 
 /*CELULAR PORTRAIT - CELULAR EM PE*/
 /*cabeçalho*/
