@@ -68,12 +68,12 @@
 
 .card{
     margin-top: 25px;
-    width: 338px;
+    width: 340px;
     height: 520px;
-    background: var(--cor2);
-    border: 1px solid var(--cor3);
+    background: var(--cor6);
+    border: 1px solid var(--cor1);
     border-radius: 25px;
-    text-align: center;
+    text-align: center; 
 }
 .card img{
     border-radius: 25px 25px 0px 0px;
@@ -85,6 +85,7 @@
     font-size: 1.3em;
 
 }
+
 .card p{
     text-align: left;
     padding: 10px 30px 30px 30px;
@@ -222,42 +223,42 @@ main h2 {
     height: 190px;
 }
 
-/*Seção wireframe */
+/*secão wiframe*/
 #wireframe{
-    padding: 50px 0px;
-    background: url(img/background5.jpg);
+    padding: 50px 60px;
+    background: url(img/yvistrindade.png);
     background-size: cover;
-    background: center;
+    background-position: center;
 }
 .qrcode{
-    display: none;
+display: none;
 }
-.textwire span{
-    display: none;
+.textowire span{
+display: none;
 }
-.textwire{
-    padding: 0px 10px;
-    color: var(--cor1);
+.textowire{
+padding: 0px 10px;
+color: var(--cor2); 
 }
-.textwire h2{
+.textowire h2{
     margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.textwire p{
+.textowire p{
     margin-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/*CARTÕES*/
+/*Cartões*/
 #conteudo{
     padding: 50px 0px;
 }
 #conteudo h2{
-    padding-bottom: 25px;
+    padding: 25px;
     text-align: center;
     font-size: 2em;
-    font-family: var(--titulo) ;
-
+    font-family: var(--cor1);
 }
-
 /*CELULAR LANDESCAP - CELULAR DEITADO*/
 @media (min-width:576px) {
     .container {
@@ -382,20 +383,22 @@ main h2 {
         flex-direction: row;
         align-items: center;
     }
-    /*Seção wireframe*/
-    #wireframe {
-        background-attachment: fixed;
 
-    }
-    #wireframe span{
-        display: inline;
-        color: var(--cor1);
-        font-weight: 700;
+/*Seção wireframe*/
+#wireframe{
+    background-attachment: fixed;
+}
 
-    }
-    .qrcode{
-        display: inline;
-        width: 250px;
-        height: 250px;
-    }
+#wireframe span{
+    display: inline;
+    color: var(--cor1);
+    font-weight: 700;
+}
+
+.qrcode{
+    display: inline;
+    width: 250px;
+    height: 250x;
+}
+
 }
