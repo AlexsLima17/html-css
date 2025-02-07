@@ -3,8 +3,9 @@
 body, h1, h2, h5, p {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family:'Calibri';
 }
+
 /* Barra preta no topo */
 .top-bar {
     background-color: black;
@@ -34,11 +35,11 @@ body, h1, h2, h5, p {
 /* Ajuste do campo de pesquisa */
 .search-bar {
     margin-left: 20px;
-    background-color: #4B0082; /* Cor de fundo roxa para a barra de pesquisa */
+    background-color: #4B0082; 
 }
 
 .search-bar input {
-    width: 200px; /* Ajuste o tamanho conforme necessário */
+    width: 200px;
     border-radius: 20px;
     padding: 5px 10px;
     color: white; 
@@ -83,9 +84,9 @@ body, h1, h2, h5, p {
 /* Cards de Notícias */
 .container .row {
     display: flex;
-    flex-wrap: wrap; /* Permite que os cards se ajustem quando o tamanho da tela for reduzido */
-    justify-content: center; /* Centraliza os cards */
-    gap: 20px; /* Espaçamento entre os cards */
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
     margin-top: 20px;
 }
 
@@ -95,8 +96,8 @@ body, h1, h2, h5, p {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-    flex: 1 1 calc(25% - 20px); /* Ajuste para 4 cards por linha em telas maiores */
-    max-width: calc(25% - 20px); /* Limita a largura máxima dos cards */
+    flex: 1 1 calc(25% - 20px); 
+    max-width: calc(25% - 20px); 
 }
 
 .col-md-3 img {
@@ -111,106 +112,112 @@ footer {
     color: white;
     font-size: 14px;
 }
+
 /* Estilos para a nova seção */
 .stadium-info {
-    background-color: #4B0082; /* Cor de fundo roxa */
-    padding: 40px 0; /* Espaçamento interno */
-    color: white; /* Cor do texto branca */
-    text-align: center; /* Centraliza o texto */
+    background-color: #4B0082;
+    padding: 40px 0;
+    color: yellow;
+    text-align: center;
 }
 
 .stadium-info .container .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Distribui os elementos uniformemente */
+    justify-content: space-around;
     gap: 20px;
     margin-top: 20px;
 }
 
 .stadium-info .col-md-4 {
-    flex: 1 1 30%; /* Largura dos elementos (aproximadamente 30%) */
-    max-width: 30%; /* Largura máxima dos elementos */
+    flex: 1 1 30%;
+    max-width: 30%;
 }
 
 .info-box {
     padding: 20px;
-    border: 2px solid white; /* Borda branca */
-    border-radius: 10px; /* Bordas arredondadas */
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 .info-box h2 {
-    font-size: 3em; /* Tamanho da fonte */
+    font-size: 3em;
     margin-bottom: 10px;
 }
+
 /* Estilos para a nova seção */
 .additional-content {
-    background-color: #f8f8f8; /* Cor de fundo cinza claro */
-    padding: 40px 0; /* Espaçamento interno */
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
 }
 
 .additional-content .container .row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Distribui os elementos uniformemente */
+    flex-direction: column;
+    align-items: center;
 }
 
 .additional-content .col-md-6 {
-    flex: 1 1 45%; /* Largura dos elementos (aproximadamente 45%) */
-    max-width: 45%; /* Largura máxima dos elementos */
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
 }
 
 .additional-content p {
-    margin-bottom: 20px; /* Espaçamento entre parágrafos */
+    margin-bottom: 50px;
 }
 
 .additional-content button {
-    background-color: #4B0082; /* Cor de fundo roxa */
-    color: white; /* Cor do texto branca */
-    border: none; /* Remove a borda padrão do botão */
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    margin-right: 10px; /* Espaçamento entre os botões */
-    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #4B0082;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    margin-right: 10px;
+}
+
+.additional-content button:last-child {
+    background-color: yellow;
+    color: black;
 }
 
 /* Estilos para a seção de posts populares */
 .popular-posts {
-    background-color: #333; /* Cor de fundo preta */
-    color: white; /* Cor do texto branca */
-    padding: 40px 0; /* Espaçamento interno */
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
 }
 
 .popular-posts h3 {
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    margin-bottom: 20px;
 }
 
 .popular-posts ul {
-    list-style: none; /* Remove os marcadores de lista */
-    padding: 0; /* Remove o padding padrão da lista */
+    list-style: none;
+    padding: 0;
 }
 
 .popular-posts li {
-    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+    margin-bottom: 10px;
 }
 
 .popular-posts a {
-    color: white; /* Cor do link branca */
-    text-decoration: none; /* Remove o sublinhado do link */
+    color: white;
+    text-decoration: none;
 }
 
 .popular-posts .social-icons {
-    margin-top: 20px; /* Espaçamento acima dos ícones sociais */
+    margin-top: 20px;
 }
 
 .popular-posts .social-icons a {
-    margin-right: 10px; /* Espaçamento entre os ícones sociais */
+    margin-right: 10px;
 }
 
 .popular-posts .social-icons img {
-    width: 30px; /* Largura dos ícones sociais */
-    height: 30px; /* Altura dos ícones sociais */
+    width: 30px;
+    height: 30px;
 }
-/* ... (seu CSS anterior) ... */
-
 
 .section-title {
     text-align: center;
@@ -219,3 +226,102 @@ footer {
     margin-bottom: 20px;
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #181f25; /* Fundo escuro */
+    padding: 30px 40px;
+    color: #ffffff; /* Texto branco para maior contraste */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.footer .logo-footer {
+    height: 180px;
+    margin-right: 40px;
+}
+
+.footer .container {
+    flex: 1;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer .col-md-4 {
+    flex: 1;
+    max-width: 30%;
+}
+
+.footer h5 {
+    font-size: 20px;
+    font-weight:lighter;
+    margin-bottom: 10px;
+    color: #f1f1f1; /* Subtítulos mais claros */
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #faf6f6; /* Links mais claros */
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #ffffff; /* Branco ao passar o mouse */
+}
+
+.footer .linha-footer {
+    width: 50px;
+    border: 1px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer .text-muted {
+    color: #fffdfd; /* Texto mais claro */
+}
+
+.footer .text-p {
+    font-size: 20px;
+    color: yellow;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    font-size: 18px;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.copyright {
+    text-align: center;
+    padding: 15px 0;
+    color: #6d6969;
+    font-size: 13px;
+}
+.credit {
+    color: #8a4fff; /* Cor roxa semelhante à da imagem */
+    font-weight: bold;
+}
+
+.credit span {
+    color: #c5a3ff; /* Tom levemente mais claro para destacar "HCODE in Udemy" */
+}
+
+
+.footer-bottom {
+    text-align: left;
+    background-color: black;
+    color: white;
+
+}
