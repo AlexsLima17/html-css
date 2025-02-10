@@ -301,6 +301,7 @@ footer {
     font-size: 18px;
     margin-right: 15px;
     color: #ffffff;
+    width: 50px;
 }
 
 .copyright {
@@ -323,5 +324,364 @@ footer {
     text-align: left;
     background-color: black;
     color: white;
+    
+}
 
+/*Celular em pé*/
+
+@media (max-width: 414px) {
+    .top-bar {
+        display: none;
+    }
+    .navbar {
+        padding: 12px 0;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        top: 45%;
+    }
+
+    .hero p {
+        font-size: 16px;
+        top: 50%;
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+    }
+
+    .search-bar {
+        flex-direction:row;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .search-bar input {
+        width: 90%;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .search-bar button {
+        width: 90%;
+        padding: 8px;
+        margin-top: 5px;
+    }
+
+    .col-md-3, .col-md-4, .col-md-6 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .info-box h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .additional-content button {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .logo-footer {
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .col-md-4 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer .social-icons a {
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+
+ /*Celular deitado*/
+
+@media (max-width: 736px) {
+    .top-bar {
+        display: none;
+    }
+    .navbar {
+        padding: 12px 0;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        top: 45%;
+    }
+
+    .hero p {
+        font-size: 16px;
+        top: 50%;
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+    }
+
+    .search-bar {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .search-bar input {
+        width: 90%;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .search-bar button {
+        width: 90%;
+        padding: 8px;
+        margin-top: 5px;
+    }
+
+    .col-md-3, .col-md-4, .col-md-6 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .info-box h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .additional-content button {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .logo-footer {
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .col-md-4 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer .social-icons a {
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+
+/*Tablet em pé*/
+@media (max-width: 786px) {
+    .top-bar {
+        display: none;
+    }
+    .navbar {
+        padding: 12px 0;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        top: 45%;
+    }
+
+    .hero p {
+        font-size: 16px;
+        top: 50%;
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+    }
+
+    .search-bar {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .search-bar input {
+        width: 90%;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .search-bar button {
+        width: 90%;
+        padding: 8px;
+        margin-top: 5px;
+    }
+
+    .col-md-3, .col-md-4, .col-md-6 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .info-box h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .additional-content button {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .logo-footer {
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .col-md-4 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer .social-icons a {
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+
+/*Tablet em deitado*/
+@media (max-width: 1024px) {
+    .top-bar {
+        display: none;
+    }
+    .navbar {
+        padding: 12px 0;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        top: 45%;
+    }
+
+    .hero p {
+        font-size: 16px;
+        top: 50%;
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+    }
+
+    .search-bar {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .search-bar input {
+        width: 90%;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .search-bar button {
+        width: 90%;
+        padding: 8px;
+        margin-top: 5px;
+    }
+
+    .col-md-3, .col-md-4, .col-md-6 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .info-box h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .additional-content button {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .logo-footer {
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .col-md-4 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer .social-icons a {
+        font-size: 16px;
+        margin: 5px;
+    }
 }
